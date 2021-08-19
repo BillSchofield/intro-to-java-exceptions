@@ -7,5 +7,6 @@ public class Main {
 		tryAndCatch.passingTheBuckForHandlingSomeoneElsesException();
 		tryAndCatch.throwingAnException(-1);
 		tryAndCatch.throwingCustomException(-1);
+		tryAndCatch.swallowingAnException();
 	}
 }

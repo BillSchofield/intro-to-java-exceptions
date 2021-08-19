@@ -29,4 +29,16 @@ public class TryAndCatch {
 			throw new NumberOfExamplesIsNegativeException();
 		}
 	}
+
+	public void swallowingAnException() {
+		try {
+			methodThatThrowsImportantException();
+		} catch (BillsImportantException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void methodThatThrowsImportantException() throws BillsImportantException {
+		throw new BillsImportantException();
+	}
 }
