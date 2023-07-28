@@ -1,6 +1,0 @@
-Main.java
- Main
-NumberOfExamplesIsNegativeException.java
- NumberOfExamplesIsNegativeException
-TryAndCatch.java
- TryAndCatch
